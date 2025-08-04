@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://vijaymundargi:vijay%40123@cluster0.torpdu7.mongodb.net/e_secure?retryWrites=true', {
+mongoose.connect('mongodb+srv://indrakumarmudenur777:Indrakumar123@cluster0.cwz54m8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

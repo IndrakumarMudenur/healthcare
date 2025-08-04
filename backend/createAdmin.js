@@ -2,7 +2,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const Admin = require('./models/Admin');
 
-mongoose.connect('mongodb+srv://vijaymundargi:vijay%40123@cluster0.torpdu7.mongodb.net/e_secure?retryWrites=true', {
+mongoose.connect('mongodb+srv://indrakumarmudenur777:Indrakumar123@cluster0.cwz54m8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
@@ -11,9 +11,9 @@ mongoose.connect('mongodb+srv://vijaymundargi:vijay%40123@cluster0.torpdu7.mongo
 
 async function createAdmin() {
   const admin = new Admin({
-    firstName: "vijay",
-    lastName: "mundargi",
-    email: "vijaymundargi@gmail.com",
+    firstName: "indrakumar",
+    lastName: "mudenur",
+    email: "indrakumarmudenur777@gmail.com",
     password: "admin@123", 
     role: "admin"
   });
