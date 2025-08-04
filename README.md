@@ -46,7 +46,7 @@ The Hospital Management System is a web application designed to streamline hospi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MKPTechnicals/Hospital-Management-System-MERN.git
+   git clone https://github.com/IndrakumarMudenur/healthcare.git
    ```
 
 2. Navigate to the frontend directory and install dependencies:
